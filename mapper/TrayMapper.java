@@ -7,6 +7,8 @@ import java.util.List;
 import java.util.Map;
 
 public interface TrayMapper {
+	
+	//test时光
 
     @Insert("INSERT INTO tray (trayId, areaId, trayName, trayModel, trayLength, trayWidth, trayHeight, trayBindNode, trayStartPos, trayCurrentPos, enableDisable, lockUnlock) " +
             "VALUES (#{trayId}, #{areaId}, #{trayName}, #{trayModel}, #{trayLength}, #{trayWidth}, #{trayHeight}, #{trayBindNode}, #{trayStartPos}, #{trayCurrentPos}, #{enableDisable}, #{lockUnlock})")
